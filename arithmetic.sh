@@ -1,12 +1,12 @@
-echo "enter number1"
+echo "Enter first number:"
 read a
-echo "enter number2"
+echo "Enter second number:"
 read b
-sum=$((a+b))
-sub=$((a-b))
-mul=$((a*b))
-div=$((a/b))
-echo "Sum of 2 numbers is : $sum"
-echo "Differnce of 2 numbers is : $sub"
-echo "Multiplictaion of 2 numbers is :$mul"
-echo "Diviion of 2 numbrs is : $div"
+sum=$((a + b))
+dif=$((a - b))
+multi=$((a * b))
+div=$((a / b))
+echo "sum:"$sum
+echo "difference:"$dif
+echo "product:"$multi
+echo "quotient:"$div
